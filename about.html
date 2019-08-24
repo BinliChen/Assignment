@@ -35,6 +35,16 @@
     .active{
             background-color: #C0C0C0;
     }
+    .column{
+            float: left;
+            width: 45%;
+            padding:40px ;
+    }
+    .row:after{
+            content:"";
+            display: table-column;
+            clear:both;
+    }
     h1 {
         font-family: 'Clicker Script', cursive;
     }
@@ -52,17 +62,26 @@
                 
         </ul></nav>
     <main>
-            <h1>About Me</h1>
-            <p>Hi,I'm Binli.I'm not good at photography, but I use the camera to 
-        record something inspiring to me and to help me create and draw. Actually, 
-        I like drawing. When I was a kid, I didn't have any friends, my parents 
-        were too busy to spend time with me. So I felt lonely. around that time
-        I received my first birthday gift-colour pens from my parents. they said,
-        "they could be my best friend". Yes, they were right. we became best 
-        friends and always played together. I used them to draw everything I saw. 
-        I felt less alone. after that I discovered painting which made me feel so 
-        happy, relaxed and free. Therefore, I want to be an illustrator, graphic 
-        designer and animator. </p>
+            <div class="row">        
+               <div class="column" style="line-height: 200%">
+                        <h1 style="text-align: center;">About Me</h1>
+                        <p><blockquote>Hi,I'm Binli.I'm not good at photography, but I use the camera to 
+                    record something inspiring to me and to help me create and draw. Actually, 
+                    I like drawing. When I was a kid, I didn't have any friends, my parents 
+                    were too busy to spend time with me. So I felt lonely. around that time
+                    I received my first birthday gift-colour pens from my parents. they said,
+                    "they could be my best friend". Yes, they were right. we became best 
+                    friends and always played together. I used them to draw everything I saw. 
+                    I felt less alone. after that I discovered painting which made me feel so 
+                    happy, relaxed and free. Therefore, I want to be an illustrator, graphic 
+                    designer and animator. </blockquote></p>
+                 </div>
+             </div>
+             
+             <div class="colum">
+                     <img src="images/self_portrait.png"; alt="Self protait" width="600" height="500">
+             </div> 
+          
     </main> 
    
  </body>
