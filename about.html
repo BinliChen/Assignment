@@ -3,13 +3,62 @@
  <head>
   <meta charset="utf-8">
   <title>Document</title>
-  <link href="style.css" rel="stlyesheet">
-   
+  <link href="https://fonts.googleapis.com/css?family=Butterfly+Kids|Clicker+Script|Satisfy&display=swap" rel="stylesheet">
+ <style>
+         header{
+                 text-align: center;
+                 margin: 55px;
+         }
+    ul{
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+            overflow: hidden;
+            background-color: #0f0f0f;
+    }
+    li{
+            float:left;
+    }
+    li a{
+            font-family: 'Satisfy', cursive;
+            font-size: 30px;
+            display:block;
+            color:white;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+    }
+    li a:hover:(.active){
+            background-color: #454545;
+            color:black;
+    }
+    .active{
+            background-color: #C0C0C0;
+    }
+    .column{
+            float: left;
+            width: 45%;
+            padding:40px ;
+    }
+    .row:after{
+            content:"";
+            display: table-column;
+            clear:both;
+    }
+    h1 {
+        font-family: 'Clicker Script', cursive;
+    }
+    footer{
+           background-color: #0f0f0f;
+           padding: 10px;
+           color:white;    
+           text-align: left;     
+    }
+ </style>
  </head>
  <body>
          <header>
-                 <a href="index.html"><img src="images/my_logo_1.png" alt="webside logo"
-                  width="150" height="150"></a>
+                 <a href="index.html"><img src="images/my_logo_1.png" alt="webside logo" width="150" height="150"></a>
          </header>
          <nav><ul>
                  <li><a href="index.html">Illustration</a> </li>
@@ -20,8 +69,8 @@
     <main>
             <div class="row">        
                <div class="column" style="line-height: 200%">
-                        <h1 style="text-align: center;">About Me</h1>
-                        <p><blockquote>Hi,I'm Binli.I'm not good at photography, but I use the camera to 
+                        <h1 style="text-align: center">About Me</h1>
+                        <blockquote>Hi,I'm Binli.I'm not good at photography, but I use the camera to 
                     record something inspiring to me and to help me create and draw. Actually, 
                     I like drawing. When I was a kid, I didn't have any friends, my parents 
                     were too busy to spend time with me. So I felt lonely. around that time
@@ -30,12 +79,13 @@
                     friends and always played together. I used them to draw everything I saw. 
                     I felt less alone. after that I discovered painting which made me feel so 
                     happy, relaxed and free. Therefore, I want to be an illustrator, graphic 
-                    designer and animator. </blockquote></p>
+                    designer and animator. </blockquote>
+
                  </div>
              </div>
              
              <div class="colum">
-                     <img src="images/self_portrait.png"; alt="Self protait"  width="600" height="500" >
+                     <img src="images/self_portrait.png"  alt="Self protait" width="600" height="500">
              </div> 
           
     </main>
