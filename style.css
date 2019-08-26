@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Butterfly+Kids|Clicker+Script|Satisfy&display=swap");
+ 
+header{
+    text-align: center;
+    margin: 55px;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding:0;
+overflow: hidden;
+background-color: #0f0f0f;
+}
+li{
+float:left;
+}
+li a{
+font-family: 'Satisfy', cursive;
+font-size: 30px;
+display:block;
+color:white;
+text-align: center;
+padding: 10px 16px;
+text-decoration: none;
+}
+li a:hover:(.active){
+background-color: #454545;
+color:black;
+}
+.active{
+background-color: #C0C0C0;
+}
+.column{
+float: left;
+width: 45%;
+padding:40px ;
+}
+.row:after{
+content:"";
+display: table-column;
+clear:both;
+}
+h1 {
+font-family: 'Clicker Script', cursive;
+}
+ 
+
+
+.gallery{
+ 
+  padding: 20px;
+  text-align: center;
+
+ 
+}
+.gallery img{
+   padding: 20px;
+}
+
+footer{
+background-color: #0f0f0f;
+padding: 10px;
+color:white;    
+text-align: left;     
+}
