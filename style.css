@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Butterfly+Kids|Clicker+Script|Satisfy&display=swap");
  
-header{
+.header{
+    grid-area: header;
+    background-color: #ffffff;      
     text-align: center;
-    margin: 55px;
+    padding: 55px;
+}
+
+.nav{
+        grid-area: nav;
+        background-color: #0f0f0f;
+       
 }
 ul{
 list-style-type: none;
@@ -34,17 +42,41 @@ color:black;
 .active{
 background-color: #C0C0C0;
 }
+  .grid-container {
+          display:grid;
+          grid-gap: 10px;
+          grid-template-areas: 
+          'header header header header header header'
+          'nav nav nav nav nav nav'
+          'left left left right right right'
+          'footer footer footer footer footer footer'
+          
+  }
 
-h1 {
+  .left, .right{
+          padding:20px;
+          background-color:#ffffff;
+  }
+  .left{
+          grid-area: left;
+  }
+  .right{
+          grid-area: right;
+  }
+
+  h1 {
 font-family: 'Clicker Script', cursive;
 }
  
 
-
-
-footer{
-background-color: #0f0f0f;
-padding: 10px;
-color:white;    
-text-align: left;     
-}
+  p::first-letter{
+          font-size:300%;
+          font-family: 'Clicker Script', cursive;
+  }
+  .footer{
+          grid-area: footer;
+          background-color: #0f0f0f;
+          padding: 10px;
+          color:white;    
+          text-align: left;
+  }
