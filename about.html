@@ -3,41 +3,124 @@
  <head>
   <meta charset="utf-8">
   <title>Document</title>
-  <link href="style.css" rel="stylesheet">
- 
+  <style>
+  .header{
+    grid-area: header;
+    background-color: #ffffff;      
+    text-align: center;
+    padding: 55px;
+}
+
+.nav{
+        grid-area: nav;
+        background-color: #0f0f0f;
+       
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding:0;
+overflow: hidden;
+background-color: #0f0f0f;
+}
+
+li{
+float:left;
+}
+
+li a{
+font-family: 'Satisfy', cursive;
+font-size: 30px;
+display:block;
+color:white;
+text-align: center;
+padding: 10px 16px;
+text-decoration: none;
+}
+
+li a:hover:(.active){
+background-color: #454545;
+color:black;
+}
+
+.active{
+background-color: #C0C0C0;
+}
+  .grid-container {
+          display:grid;
+          grid-gap: 10px;
+          grid-template-areas: 
+          'header header header header header header'
+          'nav nav nav nav nav nav'
+          'left left left right right right'
+          'footer footer footer footer footer footer'
+          
+  }
+
+  .left, .right{
+          padding:20px;
+          background-color:#ffffff;
+  }
+  .left{
+          grid-area: left;
+  }
+  .right{
+          grid-area: right;
+  }
+
+  p::first-letter{
+          font-size:300%;
+
+  }
+  .footer{
+          grid-area: footer;
+          background-color: #0f0f0f;
+          padding: 10px;
+          color:white;    
+          text-align: left;
+  }
+  </style>
 
  </head>
  <body>
-         <header>
+ <main>
+        <div class="grid-container">
+        <div class="header">
                  <a href="index.html"><img src="images/my_logo_1.png" alt="webside logo" width="150" height="150"></a>
-         </header>
-         <nav><ul>
+        </div>
+
+         <div class="nav">       
+            <ul>
                  <li><a href="index.html">Illustration</a> </li>
                  <li><a href="painting.html">Painting</a></li>
                  <li><a href="about.html">About</a></li>
                 
-        </ul></nav>
-    <main>
-         <h1 style="text-align: center">About Me</h1> 
-        <img src="images/self_portrait.png"  alt="Self protait" width="600" height="500" >
-         <p  style="line-height: 200%; text-align: right;">Hi,I'm Binli.I'm not good at photography, but I use the camera to 
-                    record something inspiring to me and to help me create and draw. Actually, 
-                    I like drawing. When I was a kid, I didn't have any friends, my parents 
-                    were too busy to spend time with me. So I felt lonely. around that time
-                    I received my first birthday gift-colour pens from my parents. they said,
-                    "they could be my best friend". Yes, they were right. we became best 
-                    friends and always played together. I used them to draw everything I saw. 
-                    I felt less alone. after that I discovered painting which made me feel so 
-                    happy, relaxed and free. Therefore, I want to be an illustrator, graphic 
-                    designer and animator. 
-                 </p>
-
+        </ul>
+        </div>
+     
          
-             
-            
-          
-    </main>
-    <footer>Copyright&copy;2019 Binli Chen</footer> 
-   
+        <div class="left" >
+         <img src="images/self_portrait.png"  alt="Self protait" width="600" height="500">
+        </div>
+
+        <div class="right">
+        <h1 style="text-align: center">About Me</h1> 
+         <p  style="line-height: 300%";>Hi,I'm Binli.I'm not good at photography, but I use 
+                    the camera to record something inspiring to me and to help me create and 
+                    draw. Actually, I like drawing. When I was a kid, I didn't have any 
+                    friends, my parents were too busy to spend time with me. So I felt 
+                    lonely. around that time I received my first birthday gift-colour pens 
+                    from my parents. they said, "they could be my best friend". Yes, they were 
+                    right. we became best friends and always played together. I used them to 
+                    draw everything I saw. I felt less alone. after that I discovered painting 
+                    which made me feel so happy, relaxed and free. Therefore, I want to be an 
+                    illustrator, graphic designer and animator. 
+        </p>
+        </div>
+
+    <div class="footer">
+    <p>Copyright&copy;2019 Binli Chen</p> 
+    </div>
+ </main>
  </body>
 </html>
