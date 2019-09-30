@@ -51,6 +51,9 @@
   .right{
           grid-area: right;
   }
+  .middle{
+          grid-area: middle;
+  }
 
   .left img{
       border: 1px solid #ddd;
@@ -86,10 +89,21 @@
     
     .right img:hover {
          box-shadow:0 0 2px 1px rgba(0, 140, 186, 0.5);
-    } 
-
+    }
+    
+    @media (max-width:600px){
+      .grid-container{
+              grid-template-areas: 
+                 'header header header header header header'
+                 'left left left left left left'
+                 'middle middle middle middle middle middle'
+                 'right right right right right right'
+                 'footer footer footer footer footer footer'
+      }
+    }
+    
   h1 {
-font-family: 'Clicker Script', cursive;
+      font-family: 'Clicker Script', cursive;
 }
  
 
