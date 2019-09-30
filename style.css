@@ -43,7 +43,6 @@
 
   .left, .middle, .right{
           text-align: center;
-          padding:10px;
           background-color:#ffffff;
   }
   .left{
@@ -53,7 +52,7 @@
           grid-area: right;
   }
 
-  .left, .middle, .right, .img{
+  .left img{
       border: 1px solid #ddd;
       border-radius: 4px;
       padding: 5px;
@@ -61,11 +60,11 @@
       width: 400px;
   }
   
-  .left, .middle, .right img:hover {
+  .left img:hover {
        box-shadow:0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
   
- /* .middle img {
+  .middle img {
         border: 1px solid #ddd;
         border-radius: 4px;
         padding: 5px;
@@ -87,7 +86,7 @@
     
     .right img:hover {
          box-shadow:0 0 2px 1px rgba(0, 140, 186, 0.5);
-    } */
+    } 
 
   h1 {
 font-family: 'Clicker Script', cursive;
