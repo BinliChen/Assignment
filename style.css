@@ -38,7 +38,7 @@
           'header header header header header header'
           'nav nav nav nav nav nav'
           'left left middle middle right right'
-          'footer footer footer footer footer footer' 
+          'footer footer footer footer footer footer';
   }
 
   .left, .middle, .right{
@@ -90,18 +90,7 @@
     .right img:hover {
          box-shadow:0 0 2px 1px rgba(0, 140, 186, 0.5);
     }
-    
-    @media (max-width:600px){
-      .grid-container{
-              grid-template-areas: 
-                 'header header header header header header'
-                 'left left left left left left'
-                 'middle middle middle middle middle middle'
-                 'right right right right right right'
-                 'footer footer footer footer footer footer'
-      }
-    }
-    
+
   h1 {
       font-family: 'Clicker Script', cursive;
 }
@@ -120,3 +109,16 @@
           color:white;    
           text-align: left;
   }
+
+  @media only screen and (max-width: 600px) {
+        .grid-container{
+                grid-template-areas: 
+                   'header header header header header header'
+                   'nav nav nav nav nav nav '
+                   'left left left left left left'
+                   'middle middle middle middle middle middle'
+                   'right right right right right right'
+                   'footer footer footer footer footer footer';
+        }
+      } 
+     
