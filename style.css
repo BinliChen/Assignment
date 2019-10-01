@@ -2,11 +2,31 @@
  
 .header{
     grid-area: header;
-    background-color: #ffffff;      
-    text-align: center;
+    background-color: #ffffff; 
+    text-align: center;     
     padding: 55px;
 }
 
+.fab {
+        font-size: 20px;
+        margin: 5px 2px;
+      
+}
+.fab:hover{
+        opacity: 0.7;
+}
+.fa-instagram {
+         background: white;
+         color:black; 
+}
+.fa-behance-square {
+        background: white;
+        color:black; 
+}
+.fa-youtube {
+        background: white;
+        color:black; 
+}
 .topnav{
         grid-area: nav;
         overflow:hidden;
