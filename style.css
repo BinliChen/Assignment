@@ -31,7 +31,7 @@
         grid-area: nav;
         overflow:hidden;
         background-color: #191a1b;
-       
+        padding: 0 30px;
 }
 .topnav a{
         float:left;
@@ -40,7 +40,7 @@
         font-family: 'Satisfy', cursive;
         font-size: 30px;
         text-align: center;
-        padding:10px 16px;
+        padding:10px 20px;
         text-decoration: none;
 }
 
@@ -161,7 +161,7 @@
   }
 
   @media (max-width: 767px) {
-        .topnav{
+        .topnav a {
                 padding: 0 15px;
         }
         .left img{
@@ -187,6 +187,10 @@
                    'middle middle middle middle middle middle'
                    'right right right right right right'
                    'footer footer footer footer footer footer';
+        }
+        .topnav a{
+                font-size: 20px;
+                padding:10px;
         }
         .left img{
                 width : 100%;
