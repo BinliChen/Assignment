@@ -135,15 +135,6 @@
         .topnav a{
                 padding: 10 180px;
         }
-        .left{
-                padding: 5px 0 5px 50px;
-        }
-        .right{
-                text-align: center;
-                float: left;
-                padding: 5px 50px 5px 0;
-                background-color:#ffffff;
-        }
         
         .left img{
                 width: 600px;
