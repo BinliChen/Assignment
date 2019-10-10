@@ -80,6 +80,7 @@
   .left img{
       border: 1px solid #ddd;
       border-radius: 4px;
+      width: 400px;
       padding: 5px;
       margin: 10px;
   
@@ -92,6 +93,7 @@
   .middle img {
         border: 1px solid #ddd;
         border-radius: 4px;
+        width: 400px;
         padding: 5px;
         margin: 10px;
       
@@ -104,6 +106,7 @@
   .right img {
         border: 1px solid #ddd;
         border-radius: 4px;
+        width: 400px;
         padding: 5px;
         margin: 10px;
     }
