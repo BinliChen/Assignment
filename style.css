@@ -125,10 +125,25 @@
           font-family: 'Clicker Script', cursive;
   }
 
-  .iframe{
-        width: 560;
-        height: 315;
+  .left iframe{
+        width: 560px;
+        height: 400px;
         frameborder: 0; 
+        padding: 10PX;
+  }
+
+  .middle iframe{
+        width: 560px;
+        height: 400px;
+        frameborder: 0; 
+        padding: 10PX;
+  }
+
+  .right iframe{
+        width: 560px;
+        height:400px;
+        frameborder: 0; 
+        padding: 10PX;
   }
 
   .footer{
@@ -199,5 +214,17 @@
         }
         .right img{
                 width: 100%;
+        }
+        .left iframe{
+                width:100%;
+                 padding:10PX 0;
+        }
+        .middle iframe{
+                width:100%;
+                padding:10PX 0;
+        }
+        .right iframe{
+                width:100%;
+                padding:10PX 0;
         }
       } 
