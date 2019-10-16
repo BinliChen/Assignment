@@ -118,6 +118,7 @@
 
   h1{
       font-family: 'Clicker Script', cursive;
+      text-align: center;
 }
  h2{ text-align: center;}
 
@@ -193,14 +194,51 @@ input[type=text], textarea{
   }
 
   @media screen and (min-width: 991px) {
-        .left img{
-                width: 600px;
-            }
-        .right img{
-                width: 600px;
+        .topnav a{
+                font-size: 50px;
+                padding: 25px;
+        }  
+        h1{
+                  font-size: 80px;
+          }
+
+        h2{
+                font-size: 50px;
         }
+          .header img{
+                  width: 250px;
+                  height: 250px;
+          }
+
+        .left img{
+                width: 120%;
+            }
+
+        .right img{
+                width: 120%;
+        }
+
         .middle img{
-                width: 600px;
+                width: 100%;
+        }
+        .left iframe{
+                width:100%;           
+        }
+        .middle iframe{
+                width:100%;
+        }
+        .right iframe{
+                width:100%;
+        }
+        .right p{
+                font-size: 30px;
+        }
+
+        form{
+                padding: 50px 500px;
+        }
+        label, input{
+                font-size: 25px;
         }
   }
 
