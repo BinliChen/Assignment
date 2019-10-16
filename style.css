@@ -12,7 +12,7 @@
     grid-area: header;
     background-color: #ffffff; 
     text-align: center;     
-    padding: 55px;
+    padding: 85px;
 }
 
 .header img{
@@ -22,7 +22,7 @@
 
 .fab {
         font-size: 25px;
-        margin: 5px 2px;
+        margin: 10px 5px;
       
 }
 .fab:hover{
@@ -44,7 +44,8 @@
         grid-area: nav;
         overflow:hidden;
         background-color: #191a1b;
-        padding: 5px 10px;
+        padding: 0;
+        margin: 5PX;
 }
 .topnav a{
         float:left;
@@ -186,16 +187,19 @@ input[type=text], textarea{
   .footer{
           grid-area: footer;
           background-color: #0f0f0f;
-          padding: 10px;
+          padding: 0;
+          margin: 5px;
           color:white;    
           text-align: left;
   }
+  .footer p{
+          padding:0 10px;
+  }
 
   @media screen and (max-width: 991px) {
-        .topnav a{
-                padding: 10 180px;
+        .topnav{
+                margin: 20px 80px;
         }
-        
         .left img{
                 width: 600px;
             }
@@ -207,7 +211,8 @@ input[type=text], textarea{
         }
 
         .footer{
-                padding: 0 180px;
+                margin: 20px 80px;
+                padding: 0 20px;
         }
   }
 
@@ -239,22 +244,32 @@ input[type=text], textarea{
                    'right right right right right right'
                    'footer footer footer footer footer footer';
         }
+
         .topnav{
-                padding: 0;
+                margin: 0;
         }
         .topnav a{
                 font-size: 20px;
                 padding:5px 9px;
         }
+        .left, .middle, .right{
+                padding: 0;
+        }
 
         .left img{
                 width : 100%;
+                margin: 10px 0;
+                padding:  0;
         }
         .middle img{
                 width: 100%;
+                margin: 10px 0;
+                padding:  0 ;
         }
         .right img{
                 width: 100%;
+                margin: 10px 0;
+                padding: 0;
         }
         .left iframe{
                 width:100%;
@@ -268,10 +283,13 @@ input[type=text], textarea{
                 width:100%;
                 padding:10PX 0;
         }
+        .contact{
+                padding: 5PX 0;
+        }
         form{
                 padding: 5px;
         }
         .footer{
-                padding:0;
+                margin: 0;
         }
       } 
