@@ -12,7 +12,7 @@
     grid-area: header;
     background-color: #ffffff; 
     text-align: center;     
-    padding: 85px;
+    padding: 90px;
 }
 
 .header img{
@@ -44,8 +44,6 @@
         grid-area: nav;
         overflow:hidden;
         background-color: #191a1b;
-        padding: 0;
-        margin: 5PX;
 }
 .topnav a{
         float:left;
@@ -54,7 +52,7 @@
         font-family: 'Satisfy', cursive;
         font-size: 30px;
         text-align: center;
-        padding:10px 20px;
+        padding:10px;
         text-decoration: none;
 }
 
@@ -84,7 +82,7 @@
   .left img{
       border: 1px solid #ddd;
       border-radius: 4px;
-      width: 400px;
+      width: 600px;
       padding: 5px;
       margin: 10px;
   }
@@ -96,7 +94,7 @@
   .middle img {
         border: 1px solid #ddd;
         border-radius: 4px;
-        width: 400px;
+        width: 600px;
         padding: 5px;
         margin: 10px;
       
@@ -109,7 +107,7 @@
   .right img {
         border: 1px solid #ddd;
         border-radius: 4px;
-        width: 400px;
+        width: 600px;
         padding: 5px;
         margin: 10px;
     }
@@ -187,19 +185,14 @@ input[type=text], textarea{
   .footer{
           grid-area: footer;
           background-color: #0f0f0f;
-          padding: 0;
-          margin: 5px;
           color:white;    
           text-align: left;
   }
   .footer p{
-          padding:0 10px;
+          padding:0 20px;
   }
 
-  @media screen and (max-width: 991px) {
-        .topnav{
-                margin: 20px 80px;
-        }
+  @media screen and (min-width: 991px) {
         .left img{
                 width: 600px;
             }
@@ -209,32 +202,21 @@ input[type=text], textarea{
         .middle img{
                 width: 600px;
         }
-
-        .footer{
-                margin: 20px 80px;
-                padding: 0 20px;
-        }
   }
 
-  @media screen and (max-width: 767px) {
-        .topnav a {
-                padding: 10 15px;
-        }
+  @media screen and (min-width: 767px) {
         .left img{
-                width: 400px;
+                width: 100%;
             }
         .right img{
-                width: 400px;
+                width: 100%;
         }
         .middle img{
-                width: 400px;
-        }
-        .footer{
-                padding: 0 15px;
+                width: 100%;
         }
   }
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 600px) {
         .grid-container{
                 grid-template-areas: 
                    'header header header header header header'
@@ -243,10 +225,6 @@ input[type=text], textarea{
                    'middle middle middle middle middle middle'
                    'right right right right right right'
                    'footer footer footer footer footer footer';
-        }
-
-        .topnav{
-                margin: 0;
         }
         .topnav a{
                 font-size: 20px;
@@ -288,8 +266,5 @@ input[type=text], textarea{
         }
         form{
                 padding: 5px;
-        }
-        .footer{
-                margin: 0;
         }
       } 
