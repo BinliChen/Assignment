@@ -6,6 +6,7 @@
         'nav nav nav nav nav nav'
         'left left middle middle right right'
         'footer footer footer footer footer footer';
+       
 }
 
 .header{
@@ -243,6 +244,7 @@ input[type=text], textarea{
   }
 
   @media screen and (min-width: 767px) {
+       
         .left img{
                 width: 90%;
             }
@@ -252,6 +254,21 @@ input[type=text], textarea{
         .middle img{
                 width: 90%;
         }    
+        .left iframe{
+                width:70%;
+                height: 70%;
+                 padding:10PX 0;
+        }
+        .middle iframe{
+                width:70%;
+                height: 70%;
+                 padding:10PX 0;
+        }
+        .right iframe{
+                width:70%;
+                
+                 padding:10PX 0;
+        }
         form{
                 padding: 50px 200px;
         }
@@ -266,6 +283,7 @@ input[type=text], textarea{
                    'middle middle middle middle middle middle'
                    'right right right right right right'
                    'footer footer footer footer footer footer';
+             
         }
         .topnav a{
                 font-size: 20px;
