@@ -177,7 +177,7 @@ input[type=text], textarea{
            width:100%;
            border-radius: 5px;
            background-color: #f2f2f2;
-           padding: 20px;
+           padding: 20px 0;
    }
    form{
            padding: 50px 300px;
@@ -206,13 +206,16 @@ input[type=text], textarea{
 
   @media screen and (min-width: 767px) {
         .left img{
-                width: 100%;
+                width: 90%;
             }
         .right img{
-                width: 100%;
+                width: 90%;
         }
         .middle img{
-                width: 100%;
+                width: 90%;
+        }    
+        form{
+                padding: 50px 200px;
         }
   }
 
