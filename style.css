@@ -116,7 +116,10 @@
       font-family: 'Clicker Script', cursive;
       text-align: center;
      }
-  h2{ text-align: center;}
+  h2{ 
+        font-family: 'Clicker Script', cursive;
+          text-align: center;
+        }
 
 
  .right p::first-letter{
