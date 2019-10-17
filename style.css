@@ -188,72 +188,6 @@ input[type=text], textarea{
   .footer p{
           padding:0 20px;
   }
-
-  @media screen and (min-width: 991px) {
-        .topnav a{
-                font-size: 50px;
-                padding: 25px;
-        }  
-        h1{
-                  font-size: 80px;
-          }
-
-        h2{
-                font-size: 50px;
-        }
-          .header img{
-                  width: 250px;
-                  height: 250px;
-          }
-
-        .left img{
-                width: 120%;
-            }
-
-        .right img{
-                width: 120%;
-        }
-
-        .middle img{
-                width: 100%;
-        }
-        .left iframe{
-                width:100%;           
-        }
-        .middle iframe{
-                width:100%;
-        }
-        .right iframe{
-                width:100%;
-        }
-        .right p{
-                font-size: 30px;
-        }
-
-        form{
-                padding: 50px 500px;
-        }
-        label, input{
-                font-size: 25px;
-        }
-  }
-
-  @media screen and (min-width: 767px) {
-       
-        .left img{
-                width: 90%;
-            }
-        .right img{
-                width: 90%;
-        }
-        .middle img{
-                width: 90%;
-        }    
-        form{
-                padding: 50px 200px;
-        }
-  }
-
   @media screen and (max-width: 600px) {
         .grid-container{
                 grid-template-areas: 
@@ -307,3 +241,67 @@ input[type=text], textarea{
                 padding: 5px;
         }
       } 
+   @media screen and (min-width: 767px) {
+       
+        .left img{
+                width: 90%;
+            }
+        .right img{
+                width: 90%;
+        }
+        .middle img{
+                width: 90%;
+        }    
+        form{
+                padding: 50px 200px;
+        }
+  }
+
+  @media screen and (min-width: 991px) {
+        .topnav a{
+                font-size: 50px;
+                padding: 25px;
+        }  
+        h1{
+                  font-size: 80px;
+          }
+
+        h2{
+                font-size: 50px;
+        }
+          .header img{
+                  width: 250px;
+                  height: 250px;
+          }
+
+        .left img{
+                width: 120%;
+            }
+
+        .right img{
+                width: 120%;
+        }
+
+        .middle img{
+                width: 100%;
+        }
+        .left iframe{
+                width:100%;           
+        }
+        .middle iframe{
+                width:100%;
+        }
+        .right iframe{
+                width:100%;
+        }
+        .right p{
+                font-size: 30px;
+        }
+
+        form{
+                padding: 50px 500px;
+        }
+        label, input{
+                font-size: 25px;
+        }
+  }
