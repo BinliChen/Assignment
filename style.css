@@ -171,14 +171,15 @@ input[type=text], textarea{
    }
    
    .contact{
-           
-           width:100%;
            border-radius: 5px;
            background-color: #f2f2f2;
-           padding: 20px 0;
+           padding: 20px;
    }
    form{
            padding: 50px 200px;
+   }
+   .contact p{
+           text-align: center;
    }
   .footer{
           grid-area: footer;
