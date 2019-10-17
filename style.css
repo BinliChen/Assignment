@@ -78,7 +78,7 @@
   .left img{
       border: 1px solid #ddd;
       border-radius: 4px;
-      width: 600px;
+      width: 400px;
       padding: 5px;
       margin: 10px;
   }
@@ -90,7 +90,7 @@
   .middle img {
         border: 1px solid #ddd;
         border-radius: 4px;
-        width: 600px;
+        width: 400px;
         padding: 5px;
         margin: 10px;
       
@@ -103,7 +103,7 @@
   .right img {
         border: 1px solid #ddd;
         border-radius: 4px;
-        width: 600px;
+        width: 400px;
         padding: 5px;
         margin: 10px;
     }
@@ -116,7 +116,8 @@
       font-family: 'Clicker Script', cursive;
       text-align: center;
      }
- h2{ text-align: center;}
+  h2{ text-align: center;}
+
 
  .right p::first-letter{
           font-size:300%;
@@ -177,7 +178,7 @@ input[type=text], textarea{
            padding: 20px 0;
    }
    form{
-           padding: 50px 300px;
+           padding: 50px 200px;
    }
   .footer{
           grid-area: footer;
@@ -196,8 +197,7 @@ input[type=text], textarea{
                    'left left left left left left'
                    'middle middle middle middle middle middle'
                    'right right right right right right'
-                   'footer footer footer footer footer footer';
-             
+                   'footer footer footer footer footer footer'; 
         }
         .topnav a{
                 font-size: 20px;
@@ -241,9 +241,8 @@ input[type=text], textarea{
                 padding: 5px;
         }
       } 
-   @media screen and (min-width: 767px) {
-       
-        .left img{
+   @media screen and (max-width: 768px) {
+          .left img{
                 width: 90%;
             }
         .right img{
@@ -252,15 +251,24 @@ input[type=text], textarea{
         .middle img{
                 width: 90%;
         }    
-        form{
-                padding: 50px 200px;
+        .left iframe{
+                width:80%;   
+        }
+        .middle iframe{
+                width:80%;     
+        }
+        .right iframe{
+                width:80%;     
         }
   }
 
   @media screen and (min-width: 991px) {
-        .topnav a{
+          .grid-container{
+                 padding: 100px;
+          }
+         .topnav a{
                 font-size: 50px;
-                padding: 25px;
+                padding: 15px;
         }  
         h1{
                   font-size: 80px;
@@ -275,31 +283,27 @@ input[type=text], textarea{
           }
 
         .left img{
-                width: 120%;
+                width: 90%;
             }
 
         .right img{
-                width: 120%;
+                width: 90%;
         }
 
         .middle img{
-                width: 100%;
+                width: 90%;
         }
         .left iframe{
-                width:100%;           
+                width:90%;           
         }
         .middle iframe{
-                width:100%;
+                width:90%;
         }
         .right iframe{
-                width:100%;
+                width:90%;
         }
         .right p{
                 font-size: 30px;
-        }
-
-        form{
-                padding: 50px 500px;
         }
         label, input{
                 font-size: 25px;
